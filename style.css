@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 1000px;
+    padding: 50px 50px;
+    border: 1px black solid;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.elem {
+    background-color: gray;
+    transition: 0.5 ease;
+    border-radius: 10px;
+    height: 40px;
+
+}
+
+
+
+.active {
+    height: 65px;
+}
+
+
+
+h2 {
+    margin: 5px 5px;
+}
+
+.p {
+    color: gray;
+
+}
+
+
+button {
+    transition: transform 0.3s ease;
+    font-size: 16px;
+    
+}
+
+.rotated {
+    transform: rotateX(180deg);
+
+}
+
+.btn {
+    position: absolute;
+    bottom: 255px;
+    right: 450px;
+    background-color: gray;
+    border: none;
+}
+
+.btn2 {
+    position: absolute;
+    bottom: 495px;
+    right: 450px;
+    background-color: gray;
+    border: none;
+
+}
+
+.btn3 {
+    position: absolute;
+    bottom: 435px;
+    right: 450px;
+    background-color: gray;
+    border: none;
+
+}
+
+.btn4 {
+    position: fixed;
+    bottom: 375px;
+    right: 450px;
+    background-color: gray;
+    border: none;
+
+}
+
+.btn5 {
+    position: absolute;
+    bottom: 315px;
+    right: 450px;
+    background-color: gray;
+    border: none;
+
+}
